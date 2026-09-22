@@ -13,3 +13,7 @@ df = pd.read_csv("UserData_export.csv")
 #Printing the data into shape that get the whole data column and the rowss
 
 print(df.shape)  
+
+#Print data into columns to get the column of the data and that provide the data column names
+
+print(df.columns)
