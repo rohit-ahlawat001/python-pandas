@@ -12,3 +12,7 @@ df = pd.DataFrame(studentData)
 print(df)
 
 df.to_csv("student_data.csv", index = False)
+
+# Printing the name informatio of the data using the info 
+
+print(df.info())
