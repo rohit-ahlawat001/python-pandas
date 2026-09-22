@@ -11,4 +11,4 @@ studentData = {
 df = pd.DataFrame(studentData)
 print(df)
 
-df.to_csv("student_data.csv")
+df.to_csv("student_data.csv", index = False)
