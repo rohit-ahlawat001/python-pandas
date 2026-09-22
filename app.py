@@ -9,3 +9,7 @@ df = pd.read_csv("UserData_export.csv")
 
 # print("Printing the bottom 10 results from the data")
 # print(df.tail(10))
+
+#Printing the data into shape that get the whole data column and the rowss
+
+print(df.shape)  
