@@ -24,6 +24,8 @@ df = pd.read_csv("UserData_export.csv")
 # Filtering the Username and the Mobile
 # print(df[["User Name", "Mobile"]])
 
-#Finding the first 10 username and the emails\
+#Finding the first 10 username and the emails
+# print(df.tail(10)[["User Name", "Email"]])
 
-print(df.tail(10)[["User Name", "Email"]])
+# Print users whose Booster Purchased is Yes
+print(df[df["Booster Purchased"] == "Yes"])
