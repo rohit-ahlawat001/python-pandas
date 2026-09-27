@@ -22,4 +22,8 @@ df = pd.read_csv("UserData_export.csv")
 # print(df[["User Name", "Email"]])
 
 # Filtering the Username and the Mobile
-print(df[["User Name", "Mobile"]])
+# print(df[["User Name", "Mobile"]])
+
+#Finding the first 10 username and the emails\
+
+print(df.tail(10)[["User Name", "Email"]])
