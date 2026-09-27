@@ -31,4 +31,7 @@ df = pd.read_csv("UserData_export.csv")
 # print(df[df["Booster Purchased"] == "Yes"])
 
 #Printing the name user name is frnak
-print(df[df["User Name"] == "frank lexxco"])
+# print(df[df["User Name"] == "frank lexxco"])
+
+# Print users with a mobile number starting with 845
+print(df[df["Mobile"].astype(str).str.startswith("845")])
