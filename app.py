@@ -28,4 +28,7 @@ df = pd.read_csv("UserData_export.csv")
 # print(df.tail(10)[["User Name", "Email"]])
 
 # Print users whose Booster Purchased is Yes
-print(df[df["Booster Purchased"] == "Yes"])
+# print(df[df["Booster Purchased"] == "Yes"])
+
+#Printing the name user name is frnak
+print(df[df["User Name"] == "frank lexxco"])
