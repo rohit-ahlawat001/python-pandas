@@ -19,7 +19,7 @@ df = pd.read_csv("UserData_export.csv")
 # print(df.columns)
 
 # Prining the username and the email
-print(df[["User Name", "Email"]])
+# print(df[["User Name", "Email"]])
 
 # Filtering the Username and the Mobile
- 
+print(df[["User Name", "Mobile"]])
