@@ -34,4 +34,4 @@ df = pd.read_csv("UserData_export.csv")
 # print(df[df["User Name"] == "frank lexxco"])
 
 # Print users with a mobile number starting with 845
-print(df[df["Mobile"].astype(str).str.startswith("845")])
+# print(df[df["Mobile"].astype(str).str.startswith("845")])
