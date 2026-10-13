@@ -42,4 +42,4 @@ print(df.tail(10))
 # Print users with a mobile number starting with 845
 # print(df[df["Mobile"].astype(str).str.startswith("845")])
 
-print(df[df["Email"] == "frank.lexxco@example.com"])
+print(df[df["Email"].astype(str) == "bridgingtech.com"])
