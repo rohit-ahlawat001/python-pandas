@@ -6,6 +6,8 @@ df = pd.read_csv("UserData_export.csv")
 
 print(df)
 
+print(df.head(10))
+print(df.tail(10))
 # REVISING THE ALL TOPICS COVERD BEFORE IN THE PANDAS
 
 # print("printing the Top 10 reaults from the data")
